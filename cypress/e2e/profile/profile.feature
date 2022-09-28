@@ -2,7 +2,7 @@ Feature: Profile page on demoqa.com
 
 #To work with Profile page user needs to be loggen in
  Background:
-    Given User Logs In as "nadia_vol" with "iloveJenya1!"
+    Given User LogsIn as "nadia_vol" with "iloveJenya1!"
 
   Scenario: Check user can go to Book Store
     Given User visits profile
